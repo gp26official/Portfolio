@@ -1,0 +1,144 @@
+body{
+	font-family: Poppins;
+}
+
+header a{
+	/*font-family: Poppins;*/
+	font-size: 2em;
+	text-decoration: none;
+	color: white;
+}
+
+header a:hover{
+	text-decoration: none;
+	color:white;
+}
+
+nav{
+	display: flex;
+	justify-content: right;
+	top:0;
+	position: sticky;
+	background: black;
+
+}
+
+nav ul{
+	float: center;
+	display:flex;
+	margin-right: 10%;
+	color: white;
+	justify-content: right;
+	padding-top: 15px;
+
+}
+
+nav ul li{
+	padding-right: 15px;
+	list-style: none;
+	justify-content: right;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color:white;
+
+}
+
+nav ul li a:hover{
+	color:grey;
+	transition: 0.7s;
+	text-decoration: none;
+}
+
+.banner{
+	background: url("DSC_0268 (1).jpg");
+	background-size: cover;
+	background-position: right;
+}
+
+
+
+.f{
+	color: white;
+	min-height: 100vh;
+	padding-top: 380px;
+	padding-left: 75px;
+	
+}
+
+
+.f h2{
+	font-size:3em;
+	}
+
+.f h4{
+	text-transform: uppercase;
+	margin-bottom: 50px;
+	font-size:2em;
+	color: white;
+	}
+
+.am{
+	/* text-align: center; */
+	margin-top: 60px;
+	margin-bottom: 30px;
+	padding-top: 20px;
+	justify-content: center;
+	line-height: 180%;
+	padding-bottom: 30px;
+	border: 1px solid grey;
+	border-radius: 10px;
+
+}
+.am h2{
+	text-align:center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.am p{
+	margin-left: 20px;
+	margin-right: 30px;
+}
+.am img{
+	float:right;
+	/* padding-bottom:10px; */
+	width:200px;
+	border-radius: 50%;
+}
+
+
+.sk h3{
+	/*font-family: Poppins;*/
+	font-family: Poppins;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 20px;
+	transition: 0.5s;
+	
+	
+}
+
+.sk h3 a{
+	color: black;
+	text-decoration: none;
+}
+
+.box{
+
+	height:350px;
+	/* background: #222; */
+	padding:20px;
+	margin-top: 20px;
+	
+	border:1px solid grey;
+	border-radius: 6px;
+	text-align: center;
+	transition: 0.7s;
+}
+
+.box:hover{
+	background: #2196f3;
+	color:white;
+}
